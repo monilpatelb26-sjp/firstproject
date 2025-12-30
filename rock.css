@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: rgb(8, 58, 108);
+    color: black;
+    height: 50px;
+}
+.game {
+    height: 100px;
+    width: 100px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 5rem;/* this css function is use to text put in center */
+    
+}
+.game:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    background-color: darkgreen;
+}
+.game2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 3rem;
+}
+
+.score-bord {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+#user-score , #compt-score {
+    font-size: 4rem;
+}
+
+.massge-contner{
+    margin-top: 5rem;
+}
+
+#massge-change {
+    background-color: chocolate;
+    color: white;
+    height: 2rem;
+    font-size: 2rem;
+    display: inline; /* this function use to remove div extra space*/
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+}
+body {
+    background-color: rgb(130, 116, 143);
+}
+
+#line {
+    margin-top: 25%;
+    color: aliceblue;
+    background-color: black;
+    height: 50px;
+    justify-content: center;
+
+}
+
+#word {
+    text-align: center;
+    padding-top: 11px;
+}
